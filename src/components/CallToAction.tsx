@@ -31,7 +31,7 @@ return (
         </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-        Aline your reading with your writing. Enjoy context-aware autocompletions based on your reading.
+        Aline your reading with your writing. A modern note-taker built for researchers. A browser extension to empower your research with context-aware autocompletions.
         </Text>
         <Stack spacing={6} direction={'row'}>
             <Button
@@ -39,12 +39,13 @@ return (
                 px={6}
                 colorScheme={'lilac'}
                 bg={'lilac.800'}
-                _hover={{ bg: 'lilac.900' }}>
+                _hover={{ bg: 'lilac.900' }}
+                onClick={() => {window.open('https://chrome.google.com/webstore/detail/aline/ccgmcombfgclgibdbknegmcjlodgifda', "_blank")?.focus()}}>
                 Get started
             </Button>
-            <Button rounded={'full'} px={6}>
+            {/* <Button rounded={'full'} px={6}>
                 Learn more
-            </Button>
+            </Button> */}
         </Stack>
         <Flex w={'full'}>
             <Browser padding="2rem 0 0 0">
