@@ -1,4 +1,4 @@
-# Aline: Reshape Research
+# Aline: Reshaping Programming
 Aline your reading with your writing using context-aware auto-completions.
 
 Currently in pre-alpha.
